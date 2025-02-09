@@ -1,0 +1,576 @@
+@import url(https://db.onlinewebfonts.com/c/adf3f0265540f4dbb4062547c82f8a7e?family=SnellBT-Regular);
+*
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+.container
+{
+	width: 95%;
+	height: 4560px;
+	margin-top: 50px;
+	position: relative;
+	margin-inline: auto;
+	box-shadow: 5px 5px 20px 10px whitesmoke;
+}
+.navigation
+{
+	width: 100%;
+	height: 70px;
+	line-height: 55px;
+	background-color: white;
+}
+.navigation h2
+{
+	font-family: "SnellBT-Regular";
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+}
+.navigation i
+{
+	cursor: pointer;
+	margin-top: 27px;
+	float: right;
+	margin-right: 50px;
+}
+.navicon2 
+{
+	margin-right: 50px;
+}
+.navicon2 i
+{
+	display: none;
+}
+.navbar ul
+{
+	margin-top: 10px;
+	margin-right: 80px;
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+}
+.navbar li
+{
+	display: inline-block;
+}
+.navbar a
+{
+	color: black;
+	text-align: center;
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+}
+.navbar a:hover
+{
+	color: red;
+}
+.section2
+{
+	position: absolute;
+	width: 100%;
+	height: 530px;
+}
+.section2 img
+{
+	width: 80%;
+	height: 500px;
+}
+.sliders .slider1
+{
+	position: relative;
+	margin-top: -400px;
+	float: left;
+}
+.slider1 .leftsection1 h3
+{
+	font-family: "SnellBT-Regular";
+	color: white;
+	font-size: 50px;
+	margin-left: 80px;
+}
+.slider1 .leftsection1 h1
+{
+	font-family: "SnellBT-Regular";
+	color: white;
+	font-size: 100px;
+	margin-left: 80px;
+}
+.slider1 .rightsection1 img
+{
+	position: absolute;
+	float: right;
+	margin-left: 750px;
+	margin-top: -250px;
+	width: 350px;
+	height: 350px;
+}
+.section2img2 img
+{
+	width: 50%;
+	margin-right: 160px;
+	margin-top: -480px;
+	float: right;
+}
+.section3
+{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 50px;
+	display: flex;
+}
+.contentsection3 h1
+{
+	font-size: 40px;
+	margin-bottom: 10px;
+	font-family: "SnellBT-Regular";
+}
+.section3 img
+{
+	width: 500px;
+	margin-left: 50px;
+}
+/*Section 4 Start Here */
+.section4
+{
+	margin-top: 1000px;
+	width: 100%;
+	height: 670px;
+}
+.section4 h1
+{
+	text-align: center;
+	font-family: "SnellBT-Regular";
+	font-size: 40px;
+}
+.section4 p
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.boxessection4
+{
+	display: flex;
+}
+.card
+{
+	width: 400px;
+	height: 400px;
+	margin: 40px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+.card img
+{
+	margin-top: 37px;
+	width: 180px;
+	height: 180px;
+	margin-left: 100px;
+	margin-bottom: 70px;
+}
+.intro
+{
+	height: 110px;
+	color: white;
+	transition: .5s;
+}
+.card h3
+{
+	padding: 10px;
+	text-align: center;
+	visibility: hidden;
+	font-size: 20px;
+}
+.card p
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	visibility: hidde;
+	margin-bottom: 15px;
+	margin-top: -5px;
+} 
+.card a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	margin-left: 160px;
+}
+.card a:hover
+{
+	color: red;
+}
+.card:hover
+{
+	border: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 10px 2px hotpink;
+}
+.card:hover .intro
+{
+	background: #46200B;
+}
+.card:hover h3,p
+{
+	visibility: visible;
+}
+.card:hover img
+{
+	transform: scale(1.1);
+}
+.buttonsetting button
+{ 
+	margin-left: 20px;
+	float: left;
+	padding: 15px 20px;
+	border: none;
+	box-shadow: 1px 1px 3px 2px hotpink;
+	color: darkred;
+}
+.buttonsetting button:hover
+{
+	color: white;
+	box-shadow: none;
+	background-color: black;
+}
+.button1
+{
+	margin-left: 650px;
+}
+
+/*Section 5 Start Here*/
+.section5
+{
+	border: 1px solid black;
+	width: 90%;
+	height: 500px;
+	margin-top: 130px;
+	margin-left: 70px;
+}
+.section5 h1,h3,h2
+{
+	text-align: center;
+	font-family: "SnellBT-Regular";
+}
+.section5 h1
+{
+	margin-top: 40px;
+	font-size: 40px;
+}
+.section5 h3,h2
+{
+	font-size: 30px;
+}
+.section5 button
+{
+	padding: 15px 35px;
+	background-color: #46200B;
+	color: white;
+	font-weight: bold;
+	margin-left: 570px;
+	margin-top: 30px;
+	border: none;
+	transition: .5s;
+}
+.section5 button:hover
+{
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	transition: .5s;
+}
+.section5 img
+{
+	margin-left: 380px;
+	margin-top: 50px;
+}
+/*Section Six Start*/
+.section6
+{
+	margin-top: 200px;
+	display: flex;
+}
+.section6 .leftsection6 img
+{
+	margin-left: 250px;
+	width: 400px;
+}
+.section6 .rightsection6 img
+{
+	margin-left: 51px;
+	width: 580px;
+	height: 900px;
+}
+.righttext
+{
+	position: absolute;
+	color: white;
+}
+.righttext h1
+{
+	font-family: "SnellBT-Regular";
+	margin-top: 80px;
+	margin-left: 180px;
+	font-size: 40px;
+}
+.righttext h2
+{
+	margin-left: 150px;
+	margin-bottom: 20px;
+	margin-top: 100px;
+	font-family: Arial;
+}
+.righttext p
+{
+	margin-left: 210px;
+	font-size: 20px;
+}
+.whitebox
+{
+	width: 150px;
+	height: 150px;
+	margin-top: 200px;
+	position: absolute;
+	background-color: white;
+	box-shadow: -2px 0px 5px 2px pink;
+}
+.rightsection6 .righttextpart1 img
+{
+	
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 180px;
+}
+
+/*Section7 Start*/
+.section7
+{
+	width: 100%;
+	height: 600px;
+	font-family: arial;
+	padding-top: 20px;
+	padding-left: 120px;
+}
+.section7 h1
+{
+	font-family: "SnellBT-Regular";
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+input
+{
+	padding: 10px;
+	border: none;
+	width: 50%;
+	height: 50px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 15px 0px lightgray;
+}
+.message input
+{
+	height: 150px;
+}
+.section7 a
+{
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	position: absolute;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #46200B;
+}
+.section7 a:hover
+{
+	color: black;
+	border: 1px solid black;
+	background-color: white;
+}
+/*Section 8 Start*/
+.section8
+{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+.section8 form
+{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 50px;
+	background: #fff;
+	width: 900px;
+	height: 55px;
+	display: flex;
+}
+.section8 form input
+{
+	flex: 1;
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+.section8 form button
+{
+	color: white;
+	border: none;
+	outline: none;
+	padding: 10px 50px;
+	background: darkred;
+}
+.section8 form button:hover
+{
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+}
+.section8icons
+{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 980px;
+}
+.section8icons i
+{
+	border: 1px solid white;
+	margin-left: 10px;
+	color: white;
+	padding: 20px;
+}
+.footersection
+{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 50px;
+	display: flex;
+}
+.side1 h4
+{
+	font-size: 25px;
+	font-family: "SnellBT-Regular";
+	color: white;
+}
+.side1 a
+{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;	
+}
+.side1 a:hover
+{
+	color: red;
+}
+.side2
+{
+	margin-left: 200px;
+	color: white;
+}
+.side2 h4
+{
+	font-family: "SnellBT-Regular";
+	font-size: 25px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+.footerss
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+.footera img
+{
+	padding: 20px;
+	background-color: white;
+	float: left;
+}
+.footera p
+{
+	float: right;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.footerb img
+{
+	padding: 20px;
+	background-color: white;
+	float: left;
+}
+.footerb p
+{
+	float: right;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.side3
+{
+	color: white;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.side3 h4
+{
+	font-family: "SnellBT-Regular";
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+.side3 p
+{
+	font-size: 18px;
+	line-height: 23px;
+}
+.side4
+{
+	color: white;
+	margin-left: 60px;
+}
+.side4 h4
+{
+	font-family: "SnellBT-Regular";
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.icons 
+{
+	display: flex;
+	flex-direction: column;
+}
+.icons i
+{
+	cursor: pointer;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+/*Nine Div Start*/
+.endfooter
+{
+	position: absolute;
+	width: 100%;
+	height: 117px;
+	line-height: 117px;
+}
+.endfooter p
+{
+	text-align: center;
+}
+
+/*RESPONSIVE WORK START ....................*/
+@media (max-width:768px)
+{
+	
+}
